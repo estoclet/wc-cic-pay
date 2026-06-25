@@ -1,0 +1,29 @@
+# Composer
+/vendor/
+
+# PHPUnit
+.phpunit.result.cache
+/.phpunit.cache/
+
+# Logs
+*.log
+/logs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / environnement
+.env
+.env.*
+*.pem
+*.key
+
+# WordPress (si symlink en local)
+/wordpress/
